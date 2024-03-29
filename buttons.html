@@ -1,0 +1,103 @@
+<style>
+    .subscribe-button {
+      background-color: rgb(200, 0, 0); 
+      color: white;
+      border: none;
+      height: 36px;
+      width: 120px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 9px;
+      transition: opacity 0.15s;
+      <!--transition is smooth change Color 
+        when we move cursor on button-->
+    }
+    
+    .subscribe-button:hover{
+        opacity: 0.7;
+       <!--reduce intensity of button color 
+        when we move cursor on button-->
+    }
+    
+    .subscribe-button:active{
+        opacity: 0.3;
+        <!--reduce intensity of button color 
+        when we click on button-->
+    }
+
+    .join-button {
+        background-color: white;
+        border-color: rgb(89, 155, 235);
+        border-style: solid;
+        border-width: 1px;
+        color:rgb(41, 118, 211);
+        height: 36px;
+        width: 60px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.15s,
+        color 0.15s;
+
+    }
+
+    .join-button:hover{
+        background-color:rgb(41, 118, 211);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.6;
+    }
+
+    .tweet-button{
+        background-color:rgb(63, 171, 225);
+        border-radius: 14px;
+        color: white;
+        cursor: pointer;
+        height: 36px;
+        width: 80px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 9px;
+        margin-right: 9px;
+        transition: box-shadow 0.2s;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        <!--shadow attributes: horizantal
+        vertical_position blur color or rgba a for blur opacity-->
+    }
+
+    .whatsapp-button{
+        background-color: rgb(76, 176, 84);
+        border-radius: 18px;
+        color: white;
+        height: 31px;
+        width: 75px;
+        border: none;
+        font-weight: bold;
+        font-size: 12px;
+    }
+</style>
+
+<button class = "subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class = "join-button">
+    JOIN
+</button>
+
+<button class = "tweet-button">
+    tweet
+</button>
+<button class = "whatsapp-button">
+    Whatsapp
+</button>
+
+<!--how to create hovers, transitions and shadows-->>
+<!--hovers means when we move cursor on button it
+it changes its color-->
+<!--hovers are created in css, eg for subscribe button-->
